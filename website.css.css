@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    height: 12%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+   margin: 20px;
+   margin-left: 30px;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(34, 34, 99);
+    margin: 17px;
+}
+.text:hover{
+    color: rgb(48, 130, 188);
+}
+.contactn{
+    margin-left: 170px;
+    font-family: sans-serif;
+    font-weight: 10;
+}
+.number{
+    margin-top: 4px;
+    margin-left: -8px;
+}
+.icon1{
+    margin-left: 30px;
+    font-weight: 600;
+    padding: 10px;  
+    border-radius: 50%;
+}
+.icon1:hover{
+    background-color: rgb(147, 216, 216);
+}
+.icon2{
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: larger;
+    padding: 10px;  
+    border-radius: 50%;
+}
+.icon2:hover{
+    background-color: rgb(147, 216, 216);
+}
+.login{
+    display: flex;
+    margin-left: 10px;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+}
+.login:hover{
+    background-color: rgb(147, 216, 216);
+}
+.try{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    background-color: rgb(35, 137, 35);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.try:hover{
+    background-color: rgb(10, 95, 10);
+}
+.fakeheader{
+    background-color: white;
+    height: 12%;
+    width: 100%;
+}
+.chat{
+    background-color: rgb(127, 218, 231);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border:2px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    
+}
+.chatimg{
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.chatimg2{
+    display: flex;
+    position: fixed;
+    right: 3.3%;
+    bottom: 4.5%;
+    font-size: larger;
+}
+#chat2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+.chat:hover{
+      filter: brightness(70%);
+}
+.page1{
+    width: 100%;
+    height: 88%;
+}
+.space{
+    height: 45px;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(31, 31, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#just{
+    margin-right: 5px;
+}
+#read{
+    margin-left: 20px;
+}
+.page1 img{
+    width: 100%;
+    height: 100%;
+}
+.box1{
+    position: absolute;
+    top: 18.2%;
+    background-color: white;
+    width: 50%;
+    height: 70%;
+}
+.box2{
+    position: absolute;
+    right: 0;
+    top: 18.2%;
+    width: 50%;
+    height: 70%;
+}
+.box2img{
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 127px;
+    height: 67%;
+    width: 80%;
+  
+    border-radius: 20px;
+}
+.box2img:hover{
+    filter: brightness(70%);
+}
+#h11{
+    color: rgb(29, 29, 94);
+    font-size: 70px;
+    font-family: sans-serif;
+    letter-spacing: -2px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 150px;
+}
+#h12{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 150px;
+}
+.start{
+    text-align: center;
+    background-color: rgb(33, 137, 211);
+    width: 150px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 120px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    border-radius: 5px;
+    
+
+}
+.start:hover{
+    background-color: rgb(8, 57, 106);
+}
+.watch{
+    text-align: center;
+    background-color: rgb(252, 254, 255);
+    width: 150px;
+    color: rgb(30, 96, 201);
+    border: 2px solid rgb(24, 43, 164);
+    font-family: sans-serif;
+    margin-top: -51px;
+    margin-left: 350px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    border-radius: 5px;
+
+}
+.watch:hover{
+    background-color: rgb(213, 231, 255);
+}
+.page2{
+    background-color: brown;
+    width: 100%;
+    height: 112%;
+}
